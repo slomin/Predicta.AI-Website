@@ -1,12 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predicta.AI - Analytics That Make You Look Good</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h1>predicta<span>.ai</span></h1>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#developers">For Developers</a></li>
+            <li><a href="#waitlist" class="cta-button">Join Waitlist</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Analytics that make you look good</h1>
+          <p class="subtitle">Make smarter decisions—without doing more work</p>
+          <a href="#waitlist" class="cta-button">Get Early Access</a>
+        </div>
+        <div class="hero-image">
+          <img src="assets/dash_1.webp" alt="Predicta.AI Dashboard Preview" />
+        </div>
+      </div>
+    </section>
 
-    <h1>Predicta.AI</h1>
+    <section class="pain-points">
+      <div class="container">
+        <div class="analyst-image">
+          <img src="assets/analyst.webp" alt="Data Analyst" />
+        </div>
+        <div class="section-content">
+          <h2>
+            As a product manager, marketer, or stakeholder, your job is to drive
+            growth.
+          </h2>
+          <p>But let's be real—getting the right analytics data is a pain.</p>
+          <ul class="pain-list">
+            <li>You don't have time to map out every event.</li>
+            <li>You're tired of waiting on engineers to implement tracking.</li>
+            <li>You just want the insights—without the hassle.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <p>Coming soon...</p>
+    <section class="solution">
+      <div class="container">
+        <div class="section-content">
+          <h2>Look like a data genius (without the spreadsheets)</h2>
+          <p>
+            Predicta.AI makes it effortless. Just drop in our SDK, and our AI
+            builds your entire analytics setup for you—tracking events,
+            segmenting users, and generating dashboards instantly.
+          </p>
+          <p>No planning. No back-and-forth with devs. No endless tweaking.</p>
+        </div>
+        <div class="solution-image">
+          <img src="assets/data_genius.webp" alt="Become a Data Genius" />
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <h2>Here's how it works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Set it and forget it</h3>
+            <p>
+              Install our lightweight SDK, and Predicta.AI handles the rest.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>AI-powered automation</h3>
+            <p>
+              We organize your data, identify key events, and create dashboards
+              that actually make sense.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Insights, not guesswork</h3>
+            <p>
+              Get the trends, alerts, and answers you need—without touching SQL
+              or hiring an analyst.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <h2>Why it matters</h2>
+        <div class="benefit-cards">
+          <div class="card">
+            <h3>Product managers</h3>
+            <p>
+              Make confident, data-backed decisions—without engineering
+              roadblocks.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Marketers</h3>
+            <p>
+              Get a clear view of your funnels, retention, and user behavior
+              without relying on analysts.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Founders & execs</h3>
+            <p>
+              Spot trends, track key metrics, and sound like the smartest person
+              in the room.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="developers" class="developers">
+      <div class="container">
+        <div class="dev-content">
+          <h2>For developers, tech leads & CTOs</h2>
+          <p>
+            Predicta.AI is built with devs in mind—integrate it in just a few
+            lines of code. The setup is minimal, so it won't slow you down, but
+            it's still powerful enough to give your team the insights they need.
+          </p>
+          <p>
+            We're launching with SDKs for Web, native iOS, and Android, with
+            Flutter and React Native SDKs coming soon.
+          </p>
+          <div class="code-snippet">
+            <pre><code>// Just a few lines to get started
+npm install @predicta/web-sdk
+
+import { Predicta } from '@predicta/web-sdk';
+Predicta.init('YOUR_API_KEY');</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="waitlist" class="cta">
+      <div class="container">
+        <h2>Get early access & an exclusive deal</h2>
+        <p>
+          We're launching soon, and early users get a special discount. Don't
+          miss out!
+        </p>
+        <form class="waitlist-form" id="waitlist-form">
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit" class="cta-button">Join the waitlist</button>
+        </form>
+        <p class="disclaimer">
+          No spam. Just a smarter way to do analytics—and make you look great
+          while doing it.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="logo">
+            <h2>predicta<span>.ai</span></h2>
+          </div>
+          <div class="footer-links">
+            <div class="footer-section">
+              <h3>Product</h3>
+              <ul>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#developers">For Developers</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Legal</h3>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Predicta.AI. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/scripts.js"></script>
+  </body>
 </html>
